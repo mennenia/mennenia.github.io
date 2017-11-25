@@ -1,0 +1,66 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3488880, 2017-11-25T06:14:25-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: NHaasGroteskDSPro-35XLt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-grotesk/pro-display-35-xlight/
+ *
+ * Webfont: NHaasGroteskDSPro-75Bd by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-grotesk/pro-display-75-bold/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3488880
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 2013 Monotype Imaging Inc. All rights reserved.
+ *
+ * © 2017 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/353c70");
+
+@font-face {
+  font-family: "NHaasGroteskDSPro-35XLt";
+  src: url("webfonts/353C70_0_0.eot");
+  src: url("webfonts/353C70_0_0.eot?#iefix") format("embedded-opentype"),
+    url("webfonts/353C70_0_0.woff2") format("woff2"), url("webfonts/353C70_0_0.woff") format("woff"),
+    url("webfonts/353C70_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NHaasGroteskDSPro-75Bd";
+  src: url("webfonts/353C70_1_0.eot");
+  src: url("webfonts/353C70_1_0.eot?#iefix") format("embedded-opentype"),
+    url("webfonts/353C70_1_0.woff2") format("woff2"), url("webfonts/353C70_1_0.woff") format("woff"),
+    url("webfonts/353C70_1_0.ttf") format("truetype");
+}
+
+h1 {
+  font-family: NHaasGroteskDSPro-75Bd;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 46px;
+}
+
+h2 {
+  font-family: NHaasGroteskDSPro-35XLt;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: -30;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
